@@ -1,0 +1,99 @@
+@Test(priority=16)
+	public void PlaceOrderThroughCelebrityforQatar() throws IOException, InterruptedException
+	{
+		//hp.HomePagelink(dr);
+		//hp.verifyloginUser(dr);
+		
+		//Select country
+		//WebElement dropdown=dr.findElement(By.id("switcher-store-trigger"));
+		//((Select) dropdown).selectByVisibleText("Qatar");
+	//	dropdown.selectByVisibleText("UAE");
+		//dropdown.selectByIndex(2);
+		
+		//Select dropdown = new Select(dr.findElement(By.id("switcher-store-trigger")));
+		
+//		Thread.sleep(5000);
+//		WebElement element=dr.findElement(By.id("switcher-store-trigger"));
+//		Select se=new Select(element);
+//		
+//		se.selectByVisibleText("Qatar");
+//		Thread.sleep(2000);
+	//	se.selectByVisibleText("HTC");
+
+		//select the id for kuwait
+		
+//		WebElement dropdown=dr.findElement(By.id("switcher-store-trigger"));
+//		dropdown.click();
+		
+		//dropdownCountry.findElement(By.cssSelector("li[alt=" + "Qatar" + "]")).click();
+		//dropdown.selectByIndex(2);
+		
+		
+		
+//		WebElement mySelectElement = dr.findElement(By.xpath("//*[@id=\"switcher-store\"]/div/ul/li[1]/a"));
+//		Select dropdown= new Select(mySelectElement);
+		
+		//click on drop down for the qatar to be appeared
+		
+		
+		
+		//dr.findElement(By.xpath("//*[@id=\"switcher-store-trigger\"]")).click();
+		
+		//dr.findElement(By.xpath("//*[@class='action toggle switcher-trigger active']//*[contains(@title,'Qatar')]")).click();
+		//dr.findElement(By.xpath("//li[@class='switcher-option']//*[contains(@title,'Qatar')]")).click();
+		
+		//dr.findElement(By.xpath("//*[@class='actions dropdown options switcher-options activ']//*[contains(@title,'Qatar')]")).click(); 
+		//dr.findElement(By.xpath("//div[@class='actions dropdown options switcher-options activ' and contains(@title,'Qatar')]")).click(); 
+		//dr.findElement(By.xpath("//*[@id='switcher-store']//*[contains(@title,'Qatar')]")).click();
+		
+		
+		//Element is not visible
+		//dr.findElement(By.xpath("//*[@class='switcher store switcher-store'][@id='switcher-store']//*[contains(@title,'Qatar')]")).click();
+		
+//		dr.findElement(By.xpath("//*[@class='switcher store switcher-store'][@id='switcher-store']//*[contains(@title,'Qatar')]")).isSelected();
+//		
+		//WebElement element=dr.findElement(By.xpath("//*[@id=\"switcher-store\"]/div/ul/li[1]/a"));
+		
+//		JavascriptExecutor je = (JavascriptExecutor) dr;
+//		je.executeScript("arguments[0].scrollIntoView(true);", element);
+//		
+//		dr.findElement(By.xpath("//*[@class='switcher store switcher-store'][@id='switcher-store']//*[contains(@title,'Qatar')]")).click();
+//		  WebDriverWait wait= new WebDriverWait(dr,30);
+//          wait.until(ExpectedConditions.visibilityOf(element));
+//		
+//	//	dr.findElement(By.xpath("//*[@id=\"switcher-store\"]/div/ul/li[1]/a")).click();
+//		element.click();
+//		
+		//To click pn dropdown for kuwait
+		
+		WebElement dropdown=dr.findElement(By.id("switcher-store-trigger"));
+        dropdown.click();
+		
+		//To select the country Qatar
+		WebDriverWait wait= new WebDriverWait(dr,30);
+        wait.until(ExpectedConditions.visibilityOf(dr.findElement(By.xpath("//img[@src='http://v2cdn.boutiqaat.com/media/flags/2.jpg' and contains (@alt,'Qatar')]"))));
+		
+		//dr.findElement(By.xpath("//img[@alt='Qatar' and contains (@src,'http://v2cdn.boutiqaat.com/media/flags/2.jpg')]")).click();
+        dr.findElement(By.xpath("//img[@src='http://v2cdn.boutiqaat.com/media/flags/2.jpg' and contains (@alt,'Qatar')]")).isSelected();
+		dr.findElement(By.xpath("//img[@src='http://v2cdn.boutiqaat.com/media/flags/2.jpg' and contains (@alt,'Qatar')]")).click();
+		
+		Thread.sleep(5000);
+		//By.xpath("//img[@alt='smthg' and contains(@src,'path/to/img')]")
+		
+		
+		
+		//	hp.fetchcelebritylink(dr);
+		dr.findElement(By.xpath("//*[@class='block ves-menu custom-mega-menu']//*[text()=' Celebrities']")).click();
+		
+	
+		CelP.selectProductOnCelebrityPage(dr);
+		hp.AddToCart(dr);
+		hp.ClickCart(dr);
+		cp.CheckOutPage(dr);
+		sp.ShippingAddressGuest(dr);
+		Thread.sleep(5000);
+		pp.placeorder(dr);
+		Assert.assertTrue(true);
+		testInfo.log(Status.INFO,"HomePage is working as expected");
+		t.TakesScreenshot(dr);
+	}

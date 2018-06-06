@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Selenium\AutomationBoutiqaat\BQOLDSYSTEM Automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 1 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="PlaceOrder2proWishlistWithbrand">PlaceOrder2proWishlistWithbrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="OrderBySlectingSKincarewithalphabet">OrderBySlectingSKincarewithalphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="OrderWithMultipleproductMutlipleQntity">OrderWithMultipleproductMutlipleQntity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="OrderWithsingleproductMutlipleQntity">OrderWithsingleproductMutlipleQntity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="PlaceOrder2WishlistWithbrand">PlaceOrder2WishlistWithbrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="PlaceOrderBySKUSearch">PlaceOrderBySKUSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="PlaceOrderCategorywithloggedin">PlaceOrderCategorywithloggedin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="PlaceOrderThroughCelebrity">PlaceOrderThroughCelebrity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="PlaceOrderThroughCelebrityforQatar">PlaceOrderThroughCelebrityforQatar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="PlaceOrderWithTVinArabic">PlaceOrderWithTVinArabic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="PlacedOrderTVelebWithRegistration">PlacedOrderTVelebWithRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="VerfyplaceOrder">VerfyplaceOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="VerifyHomepageLink">VerifyHomepageLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="placeOrderOneProduct">placeOrderOneProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="placeOrderTwoProductWithFilter">placeOrderTwoProductWithFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="verifyBoutiqaatlink">verifyBoutiqaatlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="verifyFAQlink">verifyFAQlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="verifyLoginPage">verifyLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="verifyLoginlink">verifyLoginlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="verifyMyAccountlink">verifyMyAccountlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="verifyTVlink">verifyTVlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="verifybrandlink">verifybrandlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="GenerateReportsAutomation" hash-for-method="verifycelebritylink">verifycelebritylink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">GenerateReportsAutomation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrder2proWishlistWithbrand">
+                  </a> <!-- PlaceOrder2proWishlistWithbrand -->
+                  <span class="method-name">PlaceOrder2proWishlistWithbrand</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;product_addtocart_form&quot;]/div/div/div[2]/div[1]/a/span&quot;}
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:33:08.638Z&apos;
+System info: host: &apos;LAPTOP-ACRQ2C9L&apos;, ip: &apos;192.168.20.120&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Shweta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 6d15ac01579e8bd74b779cd698325f18
+*** Element info: {Using=xpath, value=//*[@id=&quot;product_addtocart_form&quot;]/div/div/div[2]/div[1]/a/span}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at ProductPage.AddToWishlist(ProductPage.java:27)
+	at GenerateReportsAutomation.PlaceOrder2proWishlistWithbrand(GenerateReportsAutomation.java:669)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GenerateReportsAutomation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderBySlectingSKincarewithalphabet">
+                  </a> <!-- OrderBySlectingSKincarewithalphabet -->
+                  <span class="method-name">OrderBySlectingSKincarewithalphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderWithMultipleproductMutlipleQntity">
+                  </a> <!-- OrderWithMultipleproductMutlipleQntity -->
+                  <span class="method-name">OrderWithMultipleproductMutlipleQntity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrderWithsingleproductMutlipleQntity">
+                  </a> <!-- OrderWithsingleproductMutlipleQntity -->
+                  <span class="method-name">OrderWithsingleproductMutlipleQntity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrder2WishlistWithbrand">
+                  </a> <!-- PlaceOrder2WishlistWithbrand -->
+                  <span class="method-name">PlaceOrder2WishlistWithbrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderBySKUSearch">
+                  </a> <!-- PlaceOrderBySKUSearch -->
+                  <span class="method-name">PlaceOrderBySKUSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderCategorywithloggedin">
+                  </a> <!-- PlaceOrderCategorywithloggedin -->
+                  <span class="method-name">PlaceOrderCategorywithloggedin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderThroughCelebrity">
+                  </a> <!-- PlaceOrderThroughCelebrity -->
+                  <span class="method-name">PlaceOrderThroughCelebrity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderThroughCelebrityforQatar">
+                  </a> <!-- PlaceOrderThroughCelebrityforQatar -->
+                  <span class="method-name">PlaceOrderThroughCelebrityforQatar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlaceOrderWithTVinArabic">
+                  </a> <!-- PlaceOrderWithTVinArabic -->
+                  <span class="method-name">PlaceOrderWithTVinArabic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlacedOrderTVelebWithRegistration">
+                  </a> <!-- PlacedOrderTVelebWithRegistration -->
+                  <span class="method-name">PlacedOrderTVelebWithRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerfyplaceOrder">
+                  </a> <!-- VerfyplaceOrder -->
+                  <span class="method-name">VerfyplaceOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomepageLink">
+                  </a> <!-- VerifyHomepageLink -->
+                  <span class="method-name">VerifyHomepageLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderOneProduct">
+                  </a> <!-- placeOrderOneProduct -->
+                  <span class="method-name">placeOrderOneProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderTwoProductWithFilter">
+                  </a> <!-- placeOrderTwoProductWithFilter -->
+                  <span class="method-name">placeOrderTwoProductWithFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBoutiqaatlink">
+                  </a> <!-- verifyBoutiqaatlink -->
+                  <span class="method-name">verifyBoutiqaatlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFAQlink">
+                  </a> <!-- verifyFAQlink -->
+                  <span class="method-name">verifyFAQlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPage">
+                  </a> <!-- verifyLoginPage -->
+                  <span class="method-name">verifyLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginlink">
+                  </a> <!-- verifyLoginlink -->
+                  <span class="method-name">verifyLoginlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMyAccountlink">
+                  </a> <!-- verifyMyAccountlink -->
+                  <span class="method-name">verifyMyAccountlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTVlink">
+                  </a> <!-- verifyTVlink -->
+                  <span class="method-name">verifyTVlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifybrandlink">
+                  </a> <!-- verifybrandlink -->
+                  <span class="method-name">verifybrandlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifycelebritylink">
+                  </a> <!-- verifycelebritylink -->
+                  <span class="method-name">verifycelebritylink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium\AutomationBoutiqaat\BQOLDSYSTEM Automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GenerateReportsAutomation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'PlaceOrder2proWishlistWithbrand')
+data.setCell(0, 2, 'GenerateReportsAutomation')
+data.setCell(0, 3, 244309);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyHomepageLink')
+data.setCell(1, 2, 'GenerateReportsAutomation')
+data.setCell(1, 3, 21028);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'OrderWithMultipleproductMutlipleQntity')
+data.setCell(2, 2, 'GenerateReportsAutomation')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PlaceOrderBySKUSearch')
+data.setCell(3, 2, 'GenerateReportsAutomation')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyTVlink')
+data.setCell(4, 2, 'GenerateReportsAutomation')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PlaceOrderThroughCelebrityforQatar')
+data.setCell(5, 2, 'GenerateReportsAutomation')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFAQlink')
+data.setCell(6, 2, 'GenerateReportsAutomation')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifybrandlink')
+data.setCell(7, 2, 'GenerateReportsAutomation')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLoginPage')
+data.setCell(8, 2, 'GenerateReportsAutomation')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'PlaceOrderCategorywithloggedin')
+data.setCell(9, 2, 'GenerateReportsAutomation')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'PlacedOrderTVelebWithRegistration')
+data.setCell(10, 2, 'GenerateReportsAutomation')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifycelebritylink')
+data.setCell(11, 2, 'GenerateReportsAutomation')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'OrderBySlectingSKincarewithalphabet')
+data.setCell(12, 2, 'GenerateReportsAutomation')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PlaceOrder2WishlistWithbrand')
+data.setCell(13, 2, 'GenerateReportsAutomation')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'PlaceOrderThroughCelebrity')
+data.setCell(14, 2, 'GenerateReportsAutomation')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'PlaceOrderWithTVinArabic')
+data.setCell(15, 2, 'GenerateReportsAutomation')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'OrderWithsingleproductMutlipleQntity')
+data.setCell(16, 2, 'GenerateReportsAutomation')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'placeOrderTwoProductWithFilter')
+data.setCell(17, 2, 'GenerateReportsAutomation')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyMyAccountlink')
+data.setCell(18, 2, 'GenerateReportsAutomation')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerfyplaceOrder')
+data.setCell(19, 2, 'GenerateReportsAutomation')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'placeOrderOneProduct')
+data.setCell(20, 2, 'GenerateReportsAutomation')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyLoginlink')
+data.setCell(21, 2, 'GenerateReportsAutomation')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyBoutiqaatlink')
+data.setCell(22, 2, 'GenerateReportsAutomation')
+data.setCell(22, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">GenerateReportsAutomation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">generatereport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.VerifyHomepageLink() throws java.io.IOException,java.lang.Inte...)</span>
+                <span class="method-start">4116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyHomepageLink</span>
+                <span class="method-start">4120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=VerifyHomepageLink status=SUCCESS method=GenerateReportsAutomation.VerifyHomepageLi...)</span>
+                <span class="method-start">25150 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">OrderBySlectingSKincarewithalphabet</span>
+                <span class="method-start">25835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.OrderBySlectingSKincarewithalphabet() throws java.lang.Interru...)</span>
+                <span class="method-start">25835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=OrderBySlectingSKincarewithalphabet status=SUCCESS method=GenerateReportsAutomation...)</span>
+                <span class="method-start">25840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">OrderWithMultipleproductMutlipleQntity</span>
+                <span class="method-start">26424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.OrderWithMultipleproductMutlipleQntity() throws java.io.IOExce...)</span>
+                <span class="method-start">26424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=OrderWithMultipleproductMutlipleQntity status=SUCCESS method=GenerateReportsAutomat...)</span>
+                <span class="method-start">26437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PlaceOrderBySKUSearch</span>
+                <span class="method-start">27082 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.PlaceOrderBySKUSearch() throws java.lang.InterruptedException,...)</span>
+                <span class="method-start">27082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=PlaceOrderBySKUSearch status=SUCCESS method=GenerateReportsAutomation.PlaceOrderByS...)</span>
+                <span class="method-start">27090 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PlaceOrderCategorywithloggedin</span>
+                <span class="method-start">28117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.PlaceOrderCategorywithloggedin() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">28117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=PlaceOrderCategorywithloggedin status=SUCCESS method=GenerateReportsAutomation.Plac...)</span>
+                <span class="method-start">28126 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PlaceOrderWithTVinArabic</span>
+                <span class="method-start">29012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.PlaceOrderWithTVinArabic() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">29012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=PlaceOrderWithTVinArabic status=SUCCESS method=GenerateReportsAutomation.PlaceOrder...)</span>
+                <span class="method-start">29013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PlacedOrderTVelebWithRegistration</span>
+                <span class="method-start">29870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.PlacedOrderTVelebWithRegistration() throws java.lang.Interrupt...)</span>
+                <span class="method-start">29870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=PlacedOrderTVelebWithRegistration status=SUCCESS method=GenerateReportsAutomation.P...)</span>
+                <span class="method-start">29879 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.verifyLoginlink() throws java.lang.InterruptedException,java.i...)</span>
+                <span class="method-start">30697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginlink</span>
+                <span class="method-start">30698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=verifyLoginlink status=SUCCESS method=GenerateReportsAutomation.verifyLoginlink()[p...)</span>
+                <span class="method-start">30708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PlaceOrder2proWishlistWithbrand</span>
+                <span class="method-start">31626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.PlaceOrder2proWishlistWithbrand() throws java.lang.Interrupted...)</span>
+                <span class="method-start">31626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=PlaceOrder2proWishlistWithbrand status=FAILURE method=GenerateReportsAutomation.Pla...)</span>
+                <span class="method-start">275968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.verifyLoginPage() throws java.lang.InterruptedException,java.i...)</span>
+                <span class="method-start">276564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPage</span>
+                <span class="method-start">276564 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=verifyLoginPage status=SUCCESS method=GenerateReportsAutomation.verifyLoginPage()[p...)</span>
+                <span class="method-start">276565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.VerfyplaceOrder() throws java.lang.InterruptedException,java.i...)</span>
+                <span class="method-start">276931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerfyplaceOrder</span>
+                <span class="method-start">276932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=VerfyplaceOrder status=SUCCESS method=GenerateReportsAutomation.VerfyplaceOrder()[p...)</span>
+                <span class="method-start">276934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.verifycelebritylink() throws java.lang.InterruptedException,ja...)</span>
+                <span class="method-start">277272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifycelebritylink</span>
+                <span class="method-start">277272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=verifycelebritylink status=SUCCESS method=GenerateReportsAutomation.verifycelebrity...)</span>
+                <span class="method-start">277273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.PlaceOrderThroughCelebrity() throws java.io.IOException,java.l...)</span>
+                <span class="method-start">277600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PlaceOrderThroughCelebrity</span>
+                <span class="method-start">277601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=PlaceOrderThroughCelebrity status=SUCCESS method=GenerateReportsAutomation.PlaceOrd...)</span>
+                <span class="method-start">277603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.verifyMyAccountlink() throws java.lang.InterruptedException,ja...)</span>
+                <span class="method-start">277987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=verifyMyAccountlink status=SUCCESS method=GenerateReportsAutomation.verifyMyAccount...)</span>
+                <span class="method-start">277988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyMyAccountlink</span>
+                <span class="method-start">277988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.verifyFAQlink() throws java.lang.InterruptedException,java.io....)</span>
+                <span class="method-start">278384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFAQlink</span>
+                <span class="method-start">278384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=verifyFAQlink status=SUCCESS method=GenerateReportsAutomation.verifyFAQlink()[pri:5...)</span>
+                <span class="method-start">278385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.verifyBoutiqaatlink() throws java.lang.InterruptedException,ja...)</span>
+                <span class="method-start">278653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBoutiqaatlink</span>
+                <span class="method-start">278653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=verifyBoutiqaatlink status=SUCCESS method=GenerateReportsAutomation.verifyBoutiqaat...)</span>
+                <span class="method-start">278659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.verifybrandlink() throws java.lang.InterruptedException,java.i...)</span>
+                <span class="method-start">279025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifybrandlink</span>
+                <span class="method-start">279025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=verifybrandlink status=SUCCESS method=GenerateReportsAutomation.verifybrandlink()[p...)</span>
+                <span class="method-start">279026 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PlaceOrder2WishlistWithbrand</span>
+                <span class="method-start">279369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.PlaceOrder2WishlistWithbrand() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">279369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=PlaceOrder2WishlistWithbrand status=SUCCESS method=GenerateReportsAutomation.PlaceO...)</span>
+                <span class="method-start">279370 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.verifyTVlink() throws java.lang.InterruptedException,java.io.I...)</span>
+                <span class="method-start">279831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTVlink</span>
+                <span class="method-start">279832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=verifyTVlink status=SUCCESS method=GenerateReportsAutomation.verifyTVlink()[pri:8, ...)</span>
+                <span class="method-start">279838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">PlaceOrderThroughCelebrityforQatar</span>
+                <span class="method-start">331982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.PlaceOrderThroughCelebrityforQatar() throws java.io.IOExceptio...)</span>
+                <span class="method-start">331982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=PlaceOrderThroughCelebrityforQatar status=SUCCESS method=GenerateReportsAutomation....)</span>
+                <span class="method-start">331985 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">OrderWithsingleproductMutlipleQntity</span>
+                <span class="method-start">332370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.OrderWithsingleproductMutlipleQntity() throws java.io.IOExcept...)</span>
+                <span class="method-start">332370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=OrderWithsingleproductMutlipleQntity status=SUCCESS method=GenerateReportsAutomatio...)</span>
+                <span class="method-start">332373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.placeOrderOneProduct() throws java.lang.InterruptedException,j...)</span>
+                <span class="method-start">332781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=placeOrderOneProduct status=SUCCESS method=GenerateReportsAutomation.placeOrderOneP...)</span>
+                <span class="method-start">332781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">placeOrderOneProduct</span>
+                <span class="method-start">332781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Registermethod(public void GenerateReportsAutomation.placeOrderTwoProductWithFilter() throws java.io.IOException,ja...)</span>
+                <span class="method-start">333156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrderTwoProductWithFilter</span>
+                <span class="method-start">333156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">capturestatus([TestResult name=placeOrderTwoProductWithFilter status=SUCCESS method=GenerateReportsAutomation.plac...)</span>
+                <span class="method-start">333158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">333554 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="takescreenshot"/>
+      <class name="ProductPage"/>
+      <class name="PaymentPage"/>
+      <class name="Locator"/>
+      <class name="HomePage"/>
+      <class name="ShippingPage"/>
+      <class name="TestCases"/>
+      <class name="Generatereportsautomation"/>
+      <class name="CheckoutPage"/>
+      <class name="LoginPage"/>
+      <class name="CelebrityPAge"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestCases">
+        <methods>
+          <include name="Configurationtest"/>
+        </methods>
+      </class> <!-- TestCases -->
+      <class name="Generatereportsautomation">
+        <methods>
+          <include name="verifyBoutiqaatlink"/>
+          <include name="verifyFAQlink"/>
+          <include name="verifyLoginPage"/>
+          <include name="verifycelebritylink"/>
+          <include name="capturestatus"/>
+          <include name="verifyLoginlink"/>
+          <include name="VerfyplaceOrder"/>
+          <include name="verifyMyAccountlink"/>
+          <include name="VerifyHomepageLink"/>
+          <include name="generatereport"/>
+          <include name="Registermethod"/>
+          <include name="verifyTVlink"/>
+          <include name="verifybrandlink"/>
+        </methods>
+      </class> <!-- Generatereportsautomation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

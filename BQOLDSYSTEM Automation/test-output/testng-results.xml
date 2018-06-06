@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="23" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="334646" started-at="2018-06-06T07:16:56Z" finished-at="2018-06-06T07:22:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="334646" started-at="2018-06-06T07:16:56Z" finished-at="2018-06-06T07:22:30Z">
+      <class name="GenerateReportsAutomation">
+        <test-method status="PASS" signature="generatereport()[pri:0, instance:GenerateReportsAutomation@6500df86]" name="generatereport" is-config="true" duration-ms="4108" started-at="2018-06-06T12:46:56Z" finished-at="2018-06-06T12:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generatereport -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="4" started-at="2018-06-06T12:47:00Z" finished-at="2018-06-06T12:47:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.VerifyHomepageLink() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="VerifyHomepageLink()[pri:0, instance:GenerateReportsAutomation@6500df86]" name="VerifyHomepageLink" duration-ms="21028" started-at="2018-06-06T12:47:00Z" finished-at="2018-06-06T12:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomepageLink -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="684" started-at="2018-06-06T12:47:21Z" finished-at="2018-06-06T12:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomepageLink status=SUCCESS method=GenerateReportsAutomation.VerifyHomepageLink()[pri:0, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="OrderBySlectingSKincarewithalphabet()[pri:1, instance:GenerateReportsAutomation@6500df86]" name="OrderBySlectingSKincarewithalphabet" duration-ms="1" started-at="2018-06-06T12:47:21Z" finished-at="2018-06-06T12:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderBySlectingSKincarewithalphabet -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:47:21Z" finished-at="2018-06-06T12:47:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.OrderBySlectingSKincarewithalphabet() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="584" started-at="2018-06-06T12:47:21Z" finished-at="2018-06-06T12:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderBySlectingSKincarewithalphabet status=SUCCESS method=GenerateReportsAutomation.OrderBySlectingSKincarewithalphabet()[pri:1, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:47:22Z" finished-at="2018-06-06T12:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.OrderWithMultipleproductMutlipleQntity() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="OrderWithMultipleproductMutlipleQntity()[pri:1, instance:GenerateReportsAutomation@6500df86]" name="OrderWithMultipleproductMutlipleQntity" duration-ms="4" started-at="2018-06-06T12:47:22Z" finished-at="2018-06-06T12:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderWithMultipleproductMutlipleQntity -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="644" started-at="2018-06-06T12:47:22Z" finished-at="2018-06-06T12:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderWithMultipleproductMutlipleQntity status=SUCCESS method=GenerateReportsAutomation.OrderWithMultipleproductMutlipleQntity()[pri:1, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="PlaceOrderBySKUSearch()[pri:1, instance:GenerateReportsAutomation@6500df86]" name="PlaceOrderBySKUSearch" duration-ms="2" started-at="2018-06-06T12:47:23Z" finished-at="2018-06-06T12:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderBySKUSearch -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:47:23Z" finished-at="2018-06-06T12:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.PlaceOrderBySKUSearch() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="1027" started-at="2018-06-06T12:47:23Z" finished-at="2018-06-06T12:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrderBySKUSearch status=SUCCESS method=GenerateReportsAutomation.PlaceOrderBySKUSearch()[pri:1, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="PlaceOrderCategorywithloggedin()[pri:1, instance:GenerateReportsAutomation@6500df86]" name="PlaceOrderCategorywithloggedin" duration-ms="1" started-at="2018-06-06T12:47:24Z" finished-at="2018-06-06T12:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderCategorywithloggedin -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:47:24Z" finished-at="2018-06-06T12:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.PlaceOrderCategorywithloggedin() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="886" started-at="2018-06-06T12:47:24Z" finished-at="2018-06-06T12:47:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrderCategorywithloggedin status=SUCCESS method=GenerateReportsAutomation.PlaceOrderCategorywithloggedin()[pri:1, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="PlaceOrderWithTVinArabic()[pri:1, instance:GenerateReportsAutomation@6500df86]" name="PlaceOrderWithTVinArabic" duration-ms="1" started-at="2018-06-06T12:47:25Z" finished-at="2018-06-06T12:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderWithTVinArabic -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:47:25Z" finished-at="2018-06-06T12:47:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.PlaceOrderWithTVinArabic() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="857" started-at="2018-06-06T12:47:25Z" finished-at="2018-06-06T12:47:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrderWithTVinArabic status=SUCCESS method=GenerateReportsAutomation.PlaceOrderWithTVinArabic()[pri:1, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="PlacedOrderTVelebWithRegistration()[pri:1, instance:GenerateReportsAutomation@6500df86]" name="PlacedOrderTVelebWithRegistration" duration-ms="1" started-at="2018-06-06T12:47:25Z" finished-at="2018-06-06T12:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlacedOrderTVelebWithRegistration -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:47:25Z" finished-at="2018-06-06T12:47:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.PlacedOrderTVelebWithRegistration() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="818" started-at="2018-06-06T12:47:25Z" finished-at="2018-06-06T12:47:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlacedOrderTVelebWithRegistration status=SUCCESS method=GenerateReportsAutomation.PlacedOrderTVelebWithRegistration()[pri:1, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="1" started-at="2018-06-06T12:47:26Z" finished-at="2018-06-06T12:47:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.verifyLoginlink() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="verifyLoginlink()[pri:1, instance:GenerateReportsAutomation@6500df86]" name="verifyLoginlink" duration-ms="0" started-at="2018-06-06T12:47:26Z" finished-at="2018-06-06T12:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginlink -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="917" started-at="2018-06-06T12:47:26Z" finished-at="2018-06-06T12:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginlink status=SUCCESS method=GenerateReportsAutomation.verifyLoginlink()[pri:1, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:47:27Z" finished-at="2018-06-06T12:47:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.PlaceOrder2proWishlistWithbrand() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="FAIL" signature="PlaceOrder2proWishlistWithbrand()[pri:2, instance:GenerateReportsAutomation@6500df86]" name="PlaceOrder2proWishlistWithbrand" duration-ms="244309" started-at="2018-06-06T12:47:27Z" finished-at="2018-06-06T12:51:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product_addtocart_form"]/div/div/div[2]/div[1]/a/span"}
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'LAPTOP-ACRQ2C9L', ip: '192.168.20.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Shweta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 6d15ac01579e8bd74b779cd698325f18
+*** Element info: {Using=xpath, value=//*[@id="product_addtocart_form"]/div/div/div[2]/div[1]/a/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="product_addtocart_form"]/div/div/div[2]/div[1]/a/span"}
+  (Session info: chrome=67.0.3396.62)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'LAPTOP-ACRQ2C9L', ip: '192.168.20.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Shweta\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.62, webStorageEnabled: true}
+Session ID: 6d15ac01579e8bd74b779cd698325f18
+*** Element info: {Using=xpath, value=//*[@id="product_addtocart_form"]/div/div/div[2]/div[1]/a/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at ProductPage.AddToWishlist(ProductPage.java:27)
+	at GenerateReportsAutomation.PlaceOrder2proWishlistWithbrand(GenerateReportsAutomation.java:669)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrder2proWishlistWithbrand -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="596" started-at="2018-06-06T12:51:32Z" finished-at="2018-06-06T12:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrder2proWishlistWithbrand status=FAILURE method=GenerateReportsAutomation.PlaceOrder2proWishlistWithbrand()[pri:2, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="verifyLoginPage()[pri:2, instance:GenerateReportsAutomation@6500df86]" name="verifyLoginPage" duration-ms="1" started-at="2018-06-06T12:51:32Z" finished-at="2018-06-06T12:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:51:32Z" finished-at="2018-06-06T12:51:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.verifyLoginPage() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="366" started-at="2018-06-06T12:51:32Z" finished-at="2018-06-06T12:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPage status=SUCCESS method=GenerateReportsAutomation.verifyLoginPage()[pri:2, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="1" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.VerfyplaceOrder() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="VerfyplaceOrder()[pri:3, instance:GenerateReportsAutomation@6500df86]" name="VerfyplaceOrder" duration-ms="0" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerfyplaceOrder -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="337" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerfyplaceOrder status=SUCCESS method=GenerateReportsAutomation.VerfyplaceOrder()[pri:3, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="verifycelebritylink()[pri:3, instance:GenerateReportsAutomation@6500df86]" name="verifycelebritylink" duration-ms="1" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycelebritylink -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.verifycelebritylink() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="327" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifycelebritylink status=SUCCESS method=GenerateReportsAutomation.verifycelebritylink()[pri:3, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="1" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.PlaceOrderThroughCelebrity() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="PlaceOrderThroughCelebrity()[pri:4, instance:GenerateReportsAutomation@6500df86]" name="PlaceOrderThroughCelebrity" duration-ms="1" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderThroughCelebrity -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="384" started-at="2018-06-06T12:51:33Z" finished-at="2018-06-06T12:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrderThroughCelebrity status=SUCCESS method=GenerateReportsAutomation.PlaceOrderThroughCelebrity()[pri:4, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="1" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.verifyMyAccountlink() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="396" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMyAccountlink status=SUCCESS method=GenerateReportsAutomation.verifyMyAccountlink()[pri:4, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="verifyMyAccountlink()[pri:4, instance:GenerateReportsAutomation@6500df86]" name="verifyMyAccountlink" duration-ms="0" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountlink -->
+        <test-method status="PASS" signature="verifyFAQlink()[pri:5, instance:GenerateReportsAutomation@6500df86]" name="verifyFAQlink" duration-ms="1" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFAQlink -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.verifyFAQlink() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="268" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFAQlink status=SUCCESS method=GenerateReportsAutomation.verifyFAQlink()[pri:5, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.verifyBoutiqaatlink() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="verifyBoutiqaatlink()[pri:6, instance:GenerateReportsAutomation@6500df86]" name="verifyBoutiqaatlink" duration-ms="0" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoutiqaatlink -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="365" started-at="2018-06-06T12:51:34Z" finished-at="2018-06-06T12:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBoutiqaatlink status=SUCCESS method=GenerateReportsAutomation.verifyBoutiqaatlink()[pri:6, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.verifybrandlink() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="verifybrandlink()[pri:7, instance:GenerateReportsAutomation@6500df86]" name="verifybrandlink" duration-ms="1" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifybrandlink -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="343" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifybrandlink status=SUCCESS method=GenerateReportsAutomation.verifybrandlink()[pri:7, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.PlaceOrder2WishlistWithbrand() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="PlaceOrder2WishlistWithbrand()[pri:8, instance:GenerateReportsAutomation@6500df86]" name="PlaceOrder2WishlistWithbrand" duration-ms="1" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrder2WishlistWithbrand -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="461" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrder2WishlistWithbrand status=SUCCESS method=GenerateReportsAutomation.PlaceOrder2WishlistWithbrand()[pri:8, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="1" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.verifyTVlink() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="verifyTVlink()[pri:8, instance:GenerateReportsAutomation@6500df86]" name="verifyTVlink" duration-ms="2" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTVlink -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="52143" started-at="2018-06-06T12:51:35Z" finished-at="2018-06-06T12:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTVlink status=SUCCESS method=GenerateReportsAutomation.verifyTVlink()[pri:8, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.PlaceOrderThroughCelebrityforQatar() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="PlaceOrderThroughCelebrityforQatar()[pri:16, instance:GenerateReportsAutomation@6500df86]" name="PlaceOrderThroughCelebrityforQatar" duration-ms="2" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PlaceOrderThroughCelebrityforQatar -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="384" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PlaceOrderThroughCelebrityforQatar status=SUCCESS method=GenerateReportsAutomation.PlaceOrderThroughCelebrityforQatar()[pri:16, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="OrderWithsingleproductMutlipleQntity()[pri:17, instance:GenerateReportsAutomation@6500df86]" name="OrderWithsingleproductMutlipleQntity" duration-ms="1" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderWithsingleproductMutlipleQntity -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.OrderWithsingleproductMutlipleQntity() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="407" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderWithsingleproductMutlipleQntity status=SUCCESS method=GenerateReportsAutomation.OrderWithsingleproductMutlipleQntity()[pri:17, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="375" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderOneProduct status=SUCCESS method=GenerateReportsAutomation.placeOrderOneProduct()[pri:18, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.placeOrderOneProduct() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="placeOrderOneProduct()[pri:18, instance:GenerateReportsAutomation@6500df86]" name="placeOrderOneProduct" duration-ms="0" started-at="2018-06-06T12:52:28Z" finished-at="2018-06-06T12:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderOneProduct -->
+        <test-method status="PASS" signature="Registermethod(java.lang.reflect.Method)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="Registermethod" is-config="true" duration-ms="0" started-at="2018-06-06T12:52:29Z" finished-at="2018-06-06T12:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void GenerateReportsAutomation.placeOrderTwoProductWithFilter() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registermethod -->
+        <test-method status="PASS" signature="placeOrderTwoProductWithFilter()[pri:19, instance:GenerateReportsAutomation@6500df86]" name="placeOrderTwoProductWithFilter" duration-ms="1" started-at="2018-06-06T12:52:29Z" finished-at="2018-06-06T12:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderTwoProductWithFilter -->
+        <test-method status="PASS" signature="capturestatus(org.testng.ITestResult)[pri:0, instance:GenerateReportsAutomation@6500df86]" name="capturestatus" is-config="true" duration-ms="392" started-at="2018-06-06T12:52:29Z" finished-at="2018-06-06T12:52:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderTwoProductWithFilter status=SUCCESS method=GenerateReportsAutomation.placeOrderTwoProductWithFilter()[pri:19, instance:GenerateReportsAutomation@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturestatus -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:GenerateReportsAutomation@6500df86]" name="cleanup" is-config="true" duration-ms="1087" started-at="2018-06-06T12:52:29Z" finished-at="2018-06-06T12:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- GenerateReportsAutomation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
